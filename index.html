@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>World Time</title>
+		<link rel="stylesheet" href="css/index.css">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+	</head>
+	<body>
+		<h1>World Time</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Seoul</th>
+					<th>
+						<select class="city">
+							<option value="nz_al">Auckland</option>
+							<option value="us_la">Los Angeles</option>
+							<option value="us_ws">Washington City</option>
+							<option value="cr_sj">San José</option>
+							<option value="pl_ws">Warsaw</option>
+						</select>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<input type="datetime-local" step="1" class="datetime" value="2000-01-01T00:00">
+					</td>
+					<td>
+						<span class="time"></span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="js/index.js"></script>
+	</body>
+</html>
