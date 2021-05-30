@@ -6,6 +6,8 @@ const time = document.querySelector(".time");
 const city = document.querySelector(".city");
 const table = document.querySelector("table");
 
+dateTime.value = new Date().toISOString().split('.')[0];
+
 Date.prototype.addHours = function(h) {
 	this.setTime(this.getTime() + (h*60*60*1000));
 	return this;
