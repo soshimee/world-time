@@ -20,3 +20,10 @@ td, th {
 	font-size: xx-large;
 	padding: 10px;
 }
+
+select, input {
+	border: none;
+	border-bottom: 5px solid gray;
+	background: none;
+	border-radius: 3px;
+}
